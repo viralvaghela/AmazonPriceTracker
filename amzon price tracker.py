@@ -14,8 +14,8 @@ def send_sms(b):
     message = client.messages \
                     .create(
                          body=b,
-                         from_='+18052887240',
-                         to='+917485994073'
+                         from_='+xxxx',
+                         to='+xxxx'
                      )
 
     print("Message sent, ID: ",message.sid)
